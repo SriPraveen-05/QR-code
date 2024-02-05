@@ -63,7 +63,7 @@ button{
 .download-button:hover{
     background-color: darkgreen;
 }
-@media only screen {
+@media only screen and (max-width:600px) {
     .generate-button{
         display: flex;
         align-items: center;

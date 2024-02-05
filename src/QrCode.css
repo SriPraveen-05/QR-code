@@ -74,6 +74,7 @@ button{
         display: flex;
         align-items: center;
         justify-content: center;
-        right: 5px;
+        position: relative;
+        left: -5px;
     }
 }

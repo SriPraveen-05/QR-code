@@ -63,3 +63,16 @@ button{
 .download-button:hover{
     background-color: darkgreen;
 }
+@media only screen {
+    .generate-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .download-button{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

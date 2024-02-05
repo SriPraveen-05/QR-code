@@ -42,7 +42,7 @@ export const QrCode = () => {
             <label htmlFor="dataInput" className="input-label">
                 Data for QR code:
             </label>
-            <input type="text" id="dataInput" value={qrData} placeholder="data for qr code" onChange={(e)=>setQrData(e.target.value)}/>
+            <input type="text" id="dataInput" value={qrData} placeholder="enter the data for QR code" onChange={(e)=>setQrData(e.target.value)}/>
             <label htmlFor="sizeInput"  className="input-label">
                 Image size (e.g.,100):
             </label>
